@@ -113,13 +113,17 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--accent-color);
+  color: var(--second-color);
   padding: 24px 0;
   position: relative;
 }
 
 .navigation-btn:hover,
 .navigation-btn:focus {
+  color: var(--accent-color);
+}
+
+.navigation-btn-active {
   color: var(--accent-color);
 }
 
@@ -133,6 +137,7 @@ img {
   position: absolute;
   left: 0;
   bottom: 0;
+  color: var(--accent-color);
 }
 
 .email-tel {
