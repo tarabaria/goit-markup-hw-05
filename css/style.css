@@ -669,9 +669,12 @@ img {
   background-color: var(--accent-color);
   color: var(--white-color);
   border: none;
-  fill: var(--white-color);
 }
 
+.modal-close-btn:hover .modal-close-icon,
+.modal-close-btn:focus .modal-close-icon {
+  fill: var(--white-color);
+}
 
 .is-hidden {
   visibility: hidden;
