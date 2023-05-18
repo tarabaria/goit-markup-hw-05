@@ -116,6 +116,7 @@ img {
   color: var(--second-color);
   padding: 24px 0;
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-btn:hover,
@@ -145,6 +146,7 @@ img {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--main-font);
+  transform: color 250px cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .email-tel:hover,
