@@ -505,6 +505,14 @@ img {
   border-radius: 4px;
 }
 
+.overlay {
+  padding: 40px 32px 164px 32px;
+  background-color: var(--main-blue-color);
+  color: var(--light-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 /* =======MAIN PORTFOLIO======= */
 
