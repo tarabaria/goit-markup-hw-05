@@ -115,11 +115,24 @@ img {
   letter-spacing: 0.02em;
   color: var(--second-color);
   padding: 24px 0;
+  position: relative;
 }
 
 .navigation-btn:hover,
 .navigation-btn:focus {
   color: var(--accent-color);
+}
+
+.navigation-btn-active::after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 4px;
+  background-color: var(--accent-color);
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .email-tel {
