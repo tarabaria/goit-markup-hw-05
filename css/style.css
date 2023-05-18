@@ -139,6 +139,7 @@ img {
   left: 0;
   bottom: 0;
   color: var(--accent-color);
+  bottom: -1px
 }
 
 .email-tel {
