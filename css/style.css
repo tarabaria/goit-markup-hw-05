@@ -147,7 +147,7 @@ img {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--main-font);
-  transform: color 250px cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250px cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .email-tel:hover,
