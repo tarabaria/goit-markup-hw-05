@@ -655,3 +655,9 @@ img {
   top: 24px;
   right: 24px;
 }
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
